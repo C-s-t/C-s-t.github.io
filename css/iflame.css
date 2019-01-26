@@ -1,0 +1,58 @@
+#ajax-wrap {
+	position: relative;
+	margin:10px auto;
+	max-width: 700px;
+	background: #fff;
+	padding: 20px;
+}
+#ajax-wrap h2 {
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 0 10px;
+}
+/*インライン用*/
+#inline-wrap {
+	position: relative;
+	margin:10px auto;
+	max-width: 700px;
+	background: #fff;
+	padding: 20px;
+}
+#inline-wrap h1 {
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 0 10px;
+}
+#inline-wrap .image img {
+	width:100%;
+	max-width: 600px;
+}
+#inline-wrap .image,
+#inline-wrap .popup-modal-dismiss {
+	text-align: center;
+}
+/*表示のエフェクト*/
+      .mfp-fade.mfp-bg {
+        opacity: 0.001; /* Chrome opacity transition bug */
+        -webkit-transition: all 0.15s ease-out;
+        -moz-transition: all 0.15s ease-out;
+        transition: all 0.15s ease-out;
+      }
+      .mfp-fade.mfp-bg.mfp-ready {
+        opacity: 0.8;
+      }
+      .mfp-fade.mfp-bg.mfp-removing {
+        opacity: 0;
+      }
+      .mfp-fade.mfp-wrap .mfp-content {
+        opacity: 0;
+        -webkit-transition: all 0.15s ease-out;
+        -moz-transition: all 0.15s ease-out;
+        transition: all 0.15s ease-out;
+      }
+      .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+        opacity: 1;
+      }
+      .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+        opacity: 0;
+      }

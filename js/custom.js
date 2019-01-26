@@ -47,7 +47,7 @@ $(document).ready(function() {
         slides: [
             { src: 'images/slide-img1.JPG' },
             { src: 'images/slide-img2.jpg' },
-            { src: 'images/slide-img3.jpg' }
+            { src: 'images/slide-img3.JPG' }
         ],
         timer: false,
         transition: [ 'zoomIn', ],

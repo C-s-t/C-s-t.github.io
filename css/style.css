@@ -25,14 +25,14 @@ html {
     Typorgraphy
 -----------------------------------------*/
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5 {
   font-weight: 300;
 }
 
 h1 {
   font-size: 2rem;
   line-height: 3rem;
-  letter-spacing: 12px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   padding-bottom: 8px;
 }
@@ -49,6 +49,15 @@ h3 {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 4px;
+}
+
+h5 {
+  color: white;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  padding-bottom: 8px;
 }
 
 p {

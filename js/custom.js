@@ -13,8 +13,7 @@ $(document).ready(function() {
 
   $(window).load(function(){
   $(".typing").typed({
-      strings: ["I'm a Student.", "I'm an Engineer.", "I'm a Dreamer. I could be Anything..."],    /* You can change the home section typing text from
-                                                                                        here and do not use "&" use "and" */
+      strings: ["I'm a Student.", "I'm an Engineer.", "I'm a Dreamer. I could be Anything..."],
       typeSpeed: 50
     });
    });
